@@ -1,44 +1,142 @@
-# FCA-Financial-Complaints-Analysis
-Excel analysis of FCA firm-level complaints data for H2 2025, covering complaint volumes, product categories, uphold rates and resolution performance.
-# FCA Financial Complaints Analysis — 2025 H2
+# FCA Financial Complaints Analysis
 
 ## Project Overview
 
-This project analyses Financial Conduct Authority (FCA) firm-level complaints data for the second half of 2025.
+This project analyses firm-level financial complaints data published by the Financial Conduct Authority (FCA).
 
-The aim was to explore complaint volumes, product-category trends, complaint uphold rates and complaint-resolution performance across UK financial-services firms.
+The aim was to explore complaint volumes across financial products and firms, compare complaints opened and closed, and examine complaint uphold rates.
 
-## What I Did
+The analysis was completed using Excel, MySQL and Power BI.
 
-- Validated the dataset before analysis, including checking totals, structural blanks and duplicate records.
-- Built PivotTables and KPI summaries to identify complaint trends and firm-level performance.
-- Analysed complaint volumes by firm and product category.
-- Compared complaint uphold rates and 3-day resolution performance.
-- Created an Excel dashboard with ranked bar charts and KPI cards.
-
-## Key Insights
-
-- National Westminster Bank recorded the highest complaint volume.
-- Banking and credit cards generated the highest number of complaints overall.
-- Complaint uphold rates varied significantly across firms.
-- Resolution performance also varied considerably between firms.
+---
 
 ## Tools Used
 
-- Microsoft Excel
-- PivotTables
-- PivotCharts
-- COUNTIF / COUNTIFS
-- Sorting and filtering
-- Percentage analysis
-- Dashboard design
+- Excel
+- MySQL
+- Power BI
+
+---
 
 ## Data Source
 
 Financial Conduct Authority (FCA), Firm-level complaints data, 2025 H2.
 
-## Next Steps
+The dataset includes complaint information across financial firms and product categories such as:
 
-- Recreate the analysis using SQL.
-- Build an interactive Power BI dashboard.
-- Compare multiple reporting periods to identify longer-term trends.
+- Banking & Credit Cards
+- Decumulation & Pensions
+- Home Finance
+- Insurance & Pure Protection
+- Investments
+
+---
+
+## Project Workflow
+
+### 1. Excel Analysis
+
+Excel was used for the initial review and exploration of the dataset.
+
+Tasks included:
+
+- Reviewing the structure of the data
+- Checking complaint volumes by product
+- Comparing firms
+- Identifying key complaint categories
+- Reviewing complaint uphold percentages
+
+### 2. SQL Analysis
+
+The analysis was recreated and expanded in MySQL.
+
+SQL was used to:
+
+- Clean and convert complaint values into numeric formats
+- Create clean views for opened, closed and upheld complaints
+- Calculate total complaints by product
+- Identify the top firms by complaint volume
+- Compare opened and closed complaints
+- Calculate complaint shares by product
+- Analyse complaint uphold rates
+- Compare high-volume firms by uphold rate
+
+### 3. Power BI Dashboard
+
+Power BI was used to create a one-page dashboard summarising the key findings from the analysis.
+
+The dashboard includes:
+
+- Total number of firms
+- Total complaints opened
+- Total complaints closed
+- Opened complaints by product
+- Closed complaints by product
+- Top 10 firms by opened complaints
+- Top 10 firms by closed complaints
+- Opened vs closed complaints by firm
+- Average uphold rate by product
+- Banking uphold rates for firms with 10,000+ complaints
+- Insurance uphold rates for firms with 10,000+ complaints
+
+---
+
+## Key Findings
+
+- The dataset included 219 financial firms.
+- Approximately 1.65 million complaints were opened.
+- Approximately 1.63 million complaints were closed.
+- Banking & Credit Cards recorded the highest number of opened complaints, at approximately 845,000.
+- Insurance & Pure Protection recorded approximately 621,000 opened complaints and was the second-largest category.
+- NatWest, Lloyds, Barclays and HSBC were among the firms with the highest complaint volumes.
+- Complaint uphold rates varied considerably across both products and firms.
+- Among firms with more than 10,000 Banking & Credit Card complaints, uphold rates differed significantly.
+- High-volume Insurance firms also showed substantial differences in uphold rates.
+- Opened and closed complaint volumes were broadly similar overall, although individual firms showed differences between the two.
+
+---
+
+## Power BI Dashboard
+
+The dashboard provides a visual summary of complaint volumes, firm-level performance and complaint outcomes.
+
+![FCA Financial Complaints Power BI Dashboard](fca_complaints_powerbi_dashboard.png)
+
+---
+
+## Skills Demonstrated
+
+- Data cleaning
+- Data validation
+- SQL querying
+- Aggregation
+- Filtering
+- CASE statements
+- Views
+- Joins
+- Data transformation
+- KPI analysis
+- Financial services data analysis
+- Power BI dashboard development
+- Data visualisation
+- Business insight generation
+
+---
+
+## Repository Contents
+
+- `FCA_Financial_Complaints_SQL_Analysis.sql`
+- `fca_complaints_powerbi_dashboard.png`
+- `README.md`
+
+---
+
+## Future Development
+
+Possible extensions to this project include:
+
+- Comparing multiple FCA reporting periods to identify longer-term trends
+- Analysing changes in complaint volumes over time
+- Exploring additional complaint outcome measures
+- Applying further statistical analysis to complaint patterns
+- Comparing complaint behaviour across different financial product categories
