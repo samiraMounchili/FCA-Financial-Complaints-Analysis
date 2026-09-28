@@ -1,4 +1,4 @@
-# FCA Financial Complaints Analysis
+[FCA_Financial_Complaints_SQL_Analysis.-.Copy.sql](https://github.com/user-attachments/files/32755122/FCA_Financial_Complaints_SQL_Analysis.-.Copy.sql)# FCA Financial Complaints Analysis
 
 ## Project Overview
 
@@ -47,6 +47,7 @@ Tasks included:
 - Reviewing complaint uphold percentages
 
 ### 2. SQL Analysis
+[Uploading FCA_Financial_Complaints_SQL_Analysis.-.Copy.sql…]()
 
 The analysis was recreated and expanded in MySQL.
 
@@ -97,10 +98,11 @@ The dashboard includes:
 ---
 
 ## Power BI Dashboard
+<img width="513" height="309" alt="FCA Financial Complaints Power BI Dashboard" src="https://github.com/user-attachments/assets/ba37e8c2-52f9-439e-a789-2b17cae54e28" />
+
 
 The dashboard provides a visual summary of complaint volumes, firm-level performance and complaint outcomes.
 
-![FCA Financial Complaints Power BI Dashboard](fca_complaints_powerbi_dashboard.png)
 
 ---
 
