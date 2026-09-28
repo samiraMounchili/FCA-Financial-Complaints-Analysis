@@ -1,4 +1,4 @@
-[FCA_Financial_Complaints_SQL_Analysis.-.Copy.sql](https://github.com/user-attachments/files/32755122/FCA_Financial_Complaints_SQL_Analysis.-.Copy.sql)# FCA Financial Complaints Analysis
+# FCA Financial Complaints Analysis
 
 ## Project Overview
 
@@ -47,7 +47,8 @@ Tasks included:
 - Reviewing complaint uphold percentages
 
 ### 2. SQL Analysis
-[Uploading FCA_Financial_Complaints_SQL_Analysis.-.Copy.sql…]()
+[FCA_Financial_Complaints_SQL_Analysis.sql](https://github.com/user-attachments/files/32755278/FCA_Financial_Complaints_SQL_Analysis.sql)
+
 
 The analysis was recreated and expanded in MySQL.
 
